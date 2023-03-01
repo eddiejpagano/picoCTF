@@ -8,10 +8,10 @@ Hint: Try running it and add the phrase "Hello!" with a space in front (i.e. "./
 ## Solution
 
 Open up the pico ctf webshell in a new tab and login. <br>
-type **rm run** to remove the old run file. <br>
-type **wget https://artifacts.picoctf.net/c/353/run** to get the new run file. <br>
-Like last time type **chmod +x run** to make the file executable. <br>
-Now type *./run Hello!* and you should get your flag. <br>
+type <code>rm run</code> to remove the old run file. <br>
+type <code>wget https://artifacts.picoctf.net/c/353/run</code> to get the new run file. <br>
+Like last time type <code>chmod +x run</code> to make the file executable. <br>
+Now type <code>./run Hello!</code> and you should get your flag. <br>
 
 <details>
   <summary>Flag</summary>
