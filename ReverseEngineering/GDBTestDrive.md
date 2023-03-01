@@ -3,12 +3,13 @@
 Can you get the flag?
 Download this [binary](https://artifacts.picoctf.net/c/117/gdbme).
 Here's the test drive instructions:
-$ chmod +x gdbme
-$ gdb gdbme
-(gdb) layout asm
-(gdb) break *(main+99)
-(gdb) run
-(gdb) jump *(main+104)
+
+<code>$ chmod +x gdbme</code> <br>
+<code>$ gdb gdbme</code> <br>
+<code>(gdb) layout asm</code> <br>
+<code>(gdb) break *(main+99)</code> <br>
+<code>(gdb) run</code> <br>
+<code>(gdb) jump *(main+104)</code> <br>
 
 Hint: None
 
